@@ -44,7 +44,7 @@ For control and connection to the Wi-Fi network, the ESP8266 module is used. Use
 4. Install the WifiManager library.
 	- From the Program / Include Library menu, open *Manage Libraries*. Search and install the library called **WifiManager** by tzapu.
 	- You can find more information or other installation modes on your [GitHub page.](https://github.com/tzapu/WiFiManager)
-5. Select the module * Generic ESP8266 Module * for the ESP-01; select the COM port of your USB-TTL converter; in *Upload speed* select 115200.
+5. Select the module *Generic ESP8266 Module* for the ESP-01; select the COM port of your USB-TTL converter; in *Upload speed* select 115200.
 6. To upload the program to ESP8266 ESP-01, we must first start it in programming mode, for this, following the proposed circuit:
 	- Connect the power, Tx and Rx to our USB-TTL **(important that this is 3.3v, both power and data bus)**.
 	- Press and hold the reset button "BT2".
